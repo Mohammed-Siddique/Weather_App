@@ -18,7 +18,7 @@ API Url - https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={A
 
 API Formatted Url - https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=apikey
 
-For getting the temperature in metric units - https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=apikey&units=metric
+For getting the temperature in metric units - https://api.openweathermap.org/data/2.5/weather?q={city-name}&appid=apikey&units=metric
 
 Modified api used in app.js -
 api - https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore
