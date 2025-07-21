@@ -14,17 +14,14 @@ Weather App API Details:
 
 Website - https://home.openweathermap.org/users/sign_in
 
-API Key - eb960e133bc6aacc0974d2e003743972
-
 API Url - https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
-API Formatted Url - https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=eb960e133bc6aacc0974d2e003743972
+API Formatted Url - https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=apikey
 
-For getting the temperature in metric units - https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=eb960e133bc6aacc0974d2e003743972&units=metric
+For getting the temperature in metric units - https://api.openweathermap.org/data/2.5/weather?q=bangalore&appid=apikey&units=metric
 
 Modified api used in app.js -
 api - https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore
       '+'&appid='+'
-apiKey - eb960e133bc6aacc0974d2e003743972
 
-===== https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore&appid=eb960e133bc6aacc0974d2e003743972
+===== https://api.openweathermap.org/data/2.5/weather?units=metric&q=bangalore&appid=apikey
